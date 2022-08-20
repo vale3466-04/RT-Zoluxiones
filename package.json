@@ -1,0 +1,22 @@
+{
+  "name": "RT-Zoluxiones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && npx jest"
+  },
+  "dependencies": {
+    "@middy/core": "^2.5.7",
+    "@middy/http-json-body-parser": "^2.5.7",
+    "aws-sdk": "^2.1106.0",
+    "axios": "^0.26.1",
+    "serverless-offline": "^9.2.5",
+    "serverless-plugin-reducer": "^4.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
