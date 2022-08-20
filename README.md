@@ -29,5 +29,7 @@ Por ejemplo:
 
 - DELETE →  https://dsw0kj2orl.execute-api.us-west-2.amazonaws.com/planet/:id, donde id: Es el identificador del planeta ingresado
 
+- GET → https://dsw0kj2orl.execute-api.us-west-2.amazonaws.com/swapi-planets/:id, donde id: Es el numero de id del planeta de SWAPI, esta API permite integrar nuestro lambda hacia SWAPI y luego poder almacenarlo en una tabla de DynamoDB.
+
 ## Testing
 Tambien se encontrará una carpeta con las pruebas unitarias realizadas a cada una de las peticiones para poder garantizar la funcionalidad de la API, esta fue realizada con JEST.
